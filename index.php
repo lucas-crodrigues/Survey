@@ -19,6 +19,17 @@
           <option value="abyssinian">Abyssinian</option>
           <option value="americanwirehair">American Wirehair</option>
         </select><br>
+        <p>Choose your favorite cat food brand:</p>
+
+        <form>
+          <input type="radio" id="whiskas" name="fav_catfood" value="whiskas">
+          <label for="whiskas">Whiskas</label><br>
+          <input type="radio" id="purina" name="fav_catfood" value="purina">
+          <label for="purina">Purina</label><br>
+        </form>
+
+        <label for="comments">If you have any additional comments, please write them below:</label>
+        <textarea id="story" name="story" rows="5" cols="33"></textarea><br><br>
       <input type="submit" value="Submit">
     </form>
   </body>
